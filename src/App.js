@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { withAuthenticator, useAuthenticator } from "@aws-amplify/ui-react";
 import "./App.css";
 
