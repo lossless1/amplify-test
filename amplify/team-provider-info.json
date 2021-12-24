@@ -1,0 +1,48 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify19e004ff2cf34-staging-103235-authRole",
+      "UnauthRoleArn": "arn:aws:iam::057824382445:role/amplify-amplify19e004ff2cf34-staging-103235-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::057824382445:role/amplify-amplify19e004ff2cf34-staging-103235-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplify19e004ff2cf34-staging-103235-deployment",
+      "UnauthRoleName": "amplify-amplify19e004ff2cf34-staging-103235-unauthRole",
+      "StackName": "amplify-amplify19e004ff2cf34-staging-103235",
+      "StackId": "arn:aws:cloudformation:us-east-2:057824382445:stack/amplify-amplify19e004ff2cf34-staging-103235/cfc3c2d0-64a4-11ec-90e7-0217b6244c72",
+      "AmplifyAppId": "d3kia2swmdxvmk",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplify19e004ff2cf34-staging-103235-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplify19e004ff2cf34-staging-103235-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "amplifytestf3edc1c9": {}
+      },
+      "function": {
+        "amplifytestf3edc1c9DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-amplify19e004ff2cf34-staging-103235-deployment",
+          "s3Key": "amplify-builds/amplifytestf3edc1c9DefineAuthChallenge-5a6764734a4267474251-build.zip"
+        },
+        "amplifytestf3edc1c9CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-amplify19e004ff2cf34-staging-103235-deployment",
+          "s3Key": "amplify-builds/amplifytestf3edc1c9CreateAuthChallenge-614e415673624d67705a-build.zip"
+        },
+        "amplifytestf3edc1c9VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "googlesecretkey",
+          "deploymentBucketName": "amplify-amplify19e004ff2cf34-staging-103235-deployment",
+          "s3Key": "amplify-builds/amplifytestf3edc1c9VerifyAuthChallengeResponse-432b6776504f7644374e-build.zip"
+        },
+        "amplifytestf3edc1c9CustomMessage": {
+          "REDIRECTURL": "",
+          "EMAILSUBJECT": "",
+          "EMAILMESSAGE": "",
+          "deploymentBucketName": "amplify-amplify19e004ff2cf34-staging-103235-deployment",
+          "s3Key": "amplify-builds/amplifytestf3edc1c9CustomMessage-3931757057782f373342-build.zip"
+        },
+        "sitesLambda": {
+          "deploymentBucketName": "amplify-amplify19e004ff2cf34-staging-103235-deployment",
+          "s3Key": "amplify-builds/sitesLambda-2b6f746673435a663248-build.zip"
+        }
+      }
+    }
+  }
+}
